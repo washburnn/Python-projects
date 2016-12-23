@@ -32,7 +32,6 @@ def mmove(event):
     draw.ellipse([event.x - RAD, event.y - RAD, event.x + RAD, event.y + RAD], TC, TC)
 
 
-
 def change_color(event):
     cv.create_oval(event.x - RAD, event.y - RAD, event.x + RAD, event.y + RAD, fill=TC, outline="")
     draw.ellipse([event.x - RAD, event.y - RAD, event.x + RAD, event.y + RAD], TC, TC)
@@ -105,7 +104,6 @@ def exit(event):
 
 def new_file():
     cv.delete("all")
-
 
 
 root = tkinter.Tk()
