@@ -1,3 +1,12 @@
+# First program on Python 3.5
+# This app allows you to draw and save images
+# File -> Save
+# File -> New
+# LMB and mouse moving -> drawing
+# RMB -> change background (black/white)
+# Ctrl+S -> save image
+# Ctrl+X -> exit program
+
 import tkinter
 from tkinter import *
 from tkinter.messagebox import *
